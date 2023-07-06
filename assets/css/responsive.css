@@ -286,5 +286,11 @@
         max-width: 100%;
         max-height: 100%;
     }
+      .timeline__divider,
+    .timeline__divider::after,
+    .timeline__divider::before{
+      display: none;
+         
+    }
 
 }
